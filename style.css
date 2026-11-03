@@ -1,3 +1,85 @@
+h1, h2 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.container-fluid {
+    padding-inline: 0;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 90%;
+    padding-inline: 20px;
+    margin: 0 auto;
+}
+
+#content {
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#colorbox {
+    border: 2px solid black;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    height: 500px;
+    background-color: white;
+}
+
+#colorbox h2 {
+    font-size: 2em;
+    line-height: 200px;
+    color: black;
+}
+
+#green {
+    color: white;
+    display: none;
+}
+
+#blue {
+    color: white;
+    display: none;
+}
+
+#purple {
+    color: white;
+    display: none;
+}
+
+#orange {
+    color: black;
+    display: none;
+}
+
+/* Media Queries */
+
 /* 576px and wider */
 @media (min-width: 576px) {
     #colorbox {
